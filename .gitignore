@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Data and generated artifacts
+*.npy
+*.npz
+*.mat
+*.csv
+*.json
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.pt
+*.pth
+*.ckpt
+results*/
+pretrained/
+Continuous_Audio_32k/
+Continuous_Fused/
+
+# Keep repository docs/configs
+!README.md
+!requirements.txt
